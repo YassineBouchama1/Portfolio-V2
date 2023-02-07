@@ -1,0 +1,9 @@
+.App{
+  background-color: var( --navy);
+  height: 100vh;
+}
+section {
+  margin: 0px auto;
+  padding: 100px 0px;
+  max-width: 1000px;
+}

@@ -1,0 +1,36 @@
+.title-about{
+    padding-bottom: 60px;
+    margin: 0px;
+    font-family: var(--font-sans);
+    font-size: clamp(10px, 8vw, 30px);
+    position: relative;
+    font-weight: 600;
+    color: var(--lightest-slate);
+    line-height: 1.1;
+    width: 100%;
+    font-family: var(--font-mono);
+    
+   }
+
+.title-about::before{
+    content: '01. ';
+       font-weight: 200;
+       font-size: clamp(15px, 8vw,20px);
+    left: 0;
+    top: 0;
+    color: var(--green);
+}
+.title-about::after{
+
+    content: "";
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 50px;
+    width: 300px;
+    height: 1px;
+ 
+    background-color: var(--lightest-navy);
+
+}
+

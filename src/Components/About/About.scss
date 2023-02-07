@@ -1,0 +1,70 @@
+.about {
+    display: flex;
+    column-gap: 20px;
+}
+
+.img-about {
+    flex-basis: 40%;
+    position: relative;
+
+
+
+    img {
+        width: 300px;
+        filter: blur(2px);
+        border-radius: 5px;
+        margin-top: 50px;
+    }
+
+    img:hover {
+        width: 300px;
+        filter: blur(0);
+    }
+
+
+}
+
+.wrapper::after {
+    border: 2px solid var(--green);
+    top: 20px;
+    left: 20px;
+    z-index: -1;
+
+}
+
+.text-about {
+    row-gap: 30px;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 60%;
+    margin: 20px 0px 0px;
+    max-width: 540px;
+    color: var(--slate);
+    font-family: var(--font-sans);
+
+
+
+    p {
+        margin: 0px 0px 15px;
+        line-height: -1.1;
+        width: 90%;
+    }
+}
+
+.skills-list{
+list-style: none;
+    display: grid;
+    grid-template-columns: 50%   50%;
+gap: 10px;
+   
+}
+
+.skills-list li::before{
+    content: "▹";
+    
+    left: 0px;
+    top: 0;
+    color: var(--green);
+    font-size: var(--fz-sm);
+    line-height: 12px;
+}

@@ -1,0 +1,74 @@
+
+
+
+header{
+width: 100%;
+padding:20px 50px;
+
+font-family: var(--font-sans);
+svg{
+    width: 40px;
+    color: var(--green);
+}
+}
+
+
+
+
+nav{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+
+
+
+
+    ol{
+        display: flex;
+    column-gap: 40px;
+    }
+
+
+
+
+
+ol li{
+    color: var(--lightest-slate);
+    padding: 5px;
+ cursor: pointer;
+}
+
+
+
+
+ol li:hover{
+    color: var(--green);
+transition: var(  --transition);
+}
+
+
+
+::marker {
+    color: var(--green);
+}
+
+
+
+
+$Links: 4;
+
+@for $i from 1 through $Links {
+    a:nth-child(#{$i}):before {
+   
+        content: #{$i};
+        left: 0;
+        top: 0;
+        color: var(--green);
+    }
+  }
+  
+
+
+
+}
+

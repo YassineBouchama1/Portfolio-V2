@@ -1,0 +1,125 @@
+.experience{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 50px;
+}
+
+.list-btn{
+
+
+
+    flex-direction: column;
+    display: flex;
+    justify-content: flex-start;
+    align-items: start;
+    transition: var(--transition);
+    flex-basis: 20%;
+  button{
+
+    border: none;
+
+        text-decoration: none;
+    text-decoration-skip-ink: auto;
+    position: relative;
+    transition: var(--transition);
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    /* width: 100%; */
+    height: var(--tab-height);
+    padding: 0px 20px 2px;
+    border-left: 2px solid var(--lightest-navy);
+    background-color: transparent;
+    color: var(--slate);
+    font-family: var(--font-mono);
+    font-size: var(--fz-xs);
+    text-align: left;
+    white-space: nowrap;
+    cursor: pointer;
+
+  }
+
+
+  button.active{
+    border-left: 3px solid var(--green);
+    color: var(--green);
+
+  }
+
+  button span:hover{
+filter: blur(2px);
+background-color: transparent;
+    color: var(--green);
+
+  }
+}
+
+
+.contanet-experience{
+ 
+    width: 100%;
+    flex-basis: 80%;
+}
+
+.list-experience{
+    display: flex;
+    justify-content: center;
+
+    .contenct-item{
+        color: white;
+    
+       display: none;
+h3{
+    font-family: var(--font-sans);
+    // font-size: var(--fz-xxl);
+    font-weight: 500;
+    line-height: 1.3;
+    transition: var(  --transition);
+}
+      
+    }
+    .visible{
+        color: white !important;
+        display: block;
+      
+      
+    }
+
+
+    .compamy{
+        color: var(--green);
+    }
+    .range {
+        margin-bottom: 25px;
+        color: var(--light-slate);
+        font-family: var(--font-mono);
+        font-size: var(--fz-xs);
+    }
+    ul{
+        padding: 0px;
+        margin: 0px;
+        list-style: none;
+        color: var(--light-slate);
+        font-family: var(--font-mono);
+        font-size: var(--fz-xs);
+        width: 70%;
+        gap: 10px;
+        display: flex;
+        line-height: 1.3;
+        flex-direction: column;
+    }
+     ul li {
+        position: relative;
+        padding-left: 30px;
+        margin-bottom: 10px;
+    }
+     ul li::before {
+        content: "▹";
+        position: absolute;
+        left: 0px;
+        color: var(--green);
+    }
+}
+
