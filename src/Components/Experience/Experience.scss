@@ -1,10 +1,10 @@
 .experience{
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 0 50px;
-    align-items: center;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // padding: 0 50px;
+    // align-items: center;
 }
 
 .list-btn{
@@ -28,7 +28,7 @@
     display: flex;
     -webkit-box-align: center;
     align-items: center;
-   width: 100%; 
+
     height: var(--tab-height);
     padding: 0px 20px 2px;
     border-left: 2px solid var(--lightest-navy);
@@ -42,6 +42,7 @@
     transition: all .2s cubic-bezier(0.645,0.045,0.355,1);
     visibility: visible;
     opacity: 1;
+    height: 100%;
     transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
     transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
   }
@@ -53,10 +54,11 @@
 
   }
 
-  button span:hover{
-filter: blur(2px);
-background-color: transparent;
+  button:hover{
+    background-color: hsla(120, 4%, 62%, 0.2);
     color: var(--green);
+ 
+ 
 
   }
 }

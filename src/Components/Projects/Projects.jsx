@@ -16,7 +16,8 @@ export default function Projects() {
 
     <CardProject2 imgDirection={'right'} pimg={p1} title={'Social Media'}/>
     <CardProject2 imgDirection={'left'}  pimg={p2} title={'Pyxel'}/>
-
+    <CardProject2 imgDirection={'right'} pimg={p1} title={'Social Media'}/>
+    <CardProject2 imgDirection={'left'}  pimg={p2} title={'Pyxel'}/>
     </div>
     </div>
     

@@ -14,7 +14,7 @@
 .title-other-project{
     font-size: clamp(10px, 8vw, 25px);
     font-weight: 900;
- 
+
 }
 
 .list-other-projects {
@@ -25,7 +25,11 @@
 
 
 .mini-card-other-project:hover{
-    transform: translateY(-12px);
+    transform: translateY(-10px);
+    cursor: pointer;
+ .other-projet-bottom h2{
+    color: var(--green);
+ }
 }
 .mini-card-other-project {
     gap: 15px;
@@ -75,6 +79,7 @@ flex-basis: 5%;
     }
 
     .other-project-link {
+   
         align-items: center;
     
         font-size: clamp(10px, 8vw,  20px);
@@ -83,8 +88,11 @@ flex-basis: 5%;
 
         i {
             padding: 5px;
+            cursor: pointer;
         }
-
+        i:hover{
+            color: var(--green);
+        }
     }
 }
 
@@ -92,6 +100,7 @@ flex-basis: 5%;
 
 
 .other-projet-bottom {
+    transition: var(--transition);
     flex-basis: 70%;
     text-align: start;
     gap: 15px;

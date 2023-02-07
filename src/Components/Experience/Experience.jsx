@@ -50,7 +50,7 @@ export default function Experience() {
 
 
 <div className='visible contenct-item' id='1'>
-<h3>Sgit oftware Engineer<a href='' className='compamy'>@ Apple</a></h3>
+<h3>Software Engineer<a href='' className='compamy'>@ Apple</a></h3>
 <p class="range">May 2023- Present</p>
 <div><ul>
 <li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
