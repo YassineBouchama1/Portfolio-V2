@@ -11,7 +11,7 @@ export default function Hero() {
 
 
     <div className='text-hero2'>
-    <h2>Brittany Chiang.</h2>
+    <h2>Yassine Bouchama.</h2>
     </div>
 
 

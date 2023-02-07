@@ -5,6 +5,7 @@ import About from './Components/About/About'
 import Experience from './Components/Experience/Experience'
 import Hero from './Components/Hero/Hero'
 import NavBar from './Components/NavBar/NavBar'
+import Projects from './Components/Projects/Projects'
 import { ThemeContext } from './Context/theme'
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ const [{themename , setthemename}] = useContext(ThemeContext)
 <Hero/>
 <About/>
 <Experience/>
+<Projects/>
     </div>
   )
 }
