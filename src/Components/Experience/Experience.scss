@@ -4,6 +4,7 @@
     flex-direction: column;
     justify-content: center;
     padding: 0 50px;
+    align-items: center;
 }
 
 .list-btn{
@@ -70,7 +71,7 @@ background-color: transparent;
 .list-experience{
     display: flex;
     justify-content: center;
-
+padding-top: 40px;
     .contenct-item{
         color: white;
     
@@ -118,6 +119,7 @@ h3{
         position: relative;
         padding-left: 30px;
         margin-bottom: 10px;
+        font-size: var(--fz-sm);
     }
      ul li::before {
         content: "▹";

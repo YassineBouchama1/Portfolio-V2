@@ -5,6 +5,7 @@ import About from './Components/About/About'
 import Experience from './Components/Experience/Experience'
 import Hero from './Components/Hero/Hero'
 import NavBar from './Components/NavBar/NavBar'
+import OtherProjects from './Components/OtherProjects/OtherProjects'
 import Projects from './Components/Projects/Projects'
 import { ThemeContext } from './Context/theme'
 function App() {
@@ -19,6 +20,7 @@ const [{themename , setthemename}] = useContext(ThemeContext)
 <About/>
 <Experience/>
 <Projects/>
+<OtherProjects/>
     </div>
   )
 }

@@ -1,6 +1,6 @@
 import React from 'react'
 import './About.scss'
-import me from '../../assets/me.jpg'
+import me from '../../assets/me.jpeg'
 import TitleSection from '../TitleSection/TitleSection'
 export default function About() {
     return (

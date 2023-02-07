@@ -16,6 +16,7 @@
         margin-top: 50px;
     }
 
+
     img:hover {
         width: 300px;
         filter: blur(0);
@@ -24,12 +25,26 @@
 
 }
 
-.wrapper::after {
+.wrapper::before {
+    top: 0px;
+    left: 0px;
+    background-color: var(--navy);
+    mix-blend-mode: screen;
+}
+
+ .wrapper::after {
     border: 2px solid var(--green);
     top: 20px;
     left: 20px;
     z-index: -1;
-
+}
+.img-about img::after{
+    content: '';
+    border: 2px solid var(--green);
+top: 20px;
+right: 20px;
+position: absolute;
+    z-index: -1;
 }
 
 .text-about {
@@ -51,6 +66,10 @@
     }
 }
 
+
+
+
+
 .skills-list{
 list-style: none;
     display: grid;
@@ -58,6 +77,8 @@ list-style: none;
 gap: 10px;
    
 }
+
+
 
 .skills-list li::before{
     content: "▹";
