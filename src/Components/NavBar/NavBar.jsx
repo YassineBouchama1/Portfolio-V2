@@ -9,10 +9,10 @@ export default function NavBar() {
     
     <div className='links-navbar'>
     <ol>
-    <li><a>About</a></li>
-    <li><a>Experience</a></li>
-    <li><a>Work</a></li>
-    <li><a>Contact</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#Experience">Experience</a></li>
+    <li><a href="#projects" >Work</a></li>
+    <li><a href="#contact" >Contact</a></li>
     </ol>
     </div>
     </nav>

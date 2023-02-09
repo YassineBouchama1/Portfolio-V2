@@ -36,6 +36,9 @@ ol li{
     color: var(--lightest-slate);
     padding: 5px;
  cursor: pointer;
+ a{
+    color: var(--lightest-slate);
+ }
 }
 
 
@@ -72,3 +75,18 @@ $Links: 4;
 
 }
 
+
+
+@media (max-width: 767.98px) { 
+    header{
+        width: 100%;
+        padding:10px 30px;
+        font-size: 10px;
+        font-family: var(--font-mono);
+        svg{
+            width: 20px;
+            color: var(--green);
+        }
+        }
+        
+}

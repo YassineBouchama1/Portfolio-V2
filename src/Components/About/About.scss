@@ -3,6 +3,7 @@
     column-gap: 20px;
 
    justify-content: center;
+padding-top: 100px;
 }
 
 .img-about {
@@ -51,11 +52,11 @@ position: absolute;
 }
 
 .text-about {
-    row-gap: 30px;
+    row-gap: 00px;
     display: flex;
     flex-direction: column;
     flex-basis: 100%;
-    margin: 20px 0px 0px;
+    // margin: 20px 0px 0px;
     max-width: 540px;
     color: var(--slate);
     font-family: var(--font-sans);
@@ -64,9 +65,9 @@ position: absolute;
 
     p {
         margin: 0px 0px 15px;
-        line-height: -1.1;
-        width: 100%;
-        font-size: clamp(5px, 8vw, 15px);
+        line-height: 1.4;
+                width: 100%;
+     
     }
 }
 

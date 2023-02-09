@@ -3,7 +3,7 @@ import TitleSection from '../TitleSection/TitleSection'
 import './Contact.scss'
 export default function Contact() {
   return (
-    <section>
+    <section id='contact'>
 <div className='contact'>
 
 

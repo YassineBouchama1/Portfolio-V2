@@ -121,16 +121,17 @@ color: var(--green);
   
   @media (max-width: 767.98px) { 
     main.fillHeight {
-      padding: 0px 50px;
+      padding: 0px 25px;
     }
     main {
       margin: 0px auto;
       width: 100%;
       max-width: 1600px;
       min-height: 100vh;
-      padding: 50px 50px;
+      padding: 50px 25px;
     }
     .slide-side{
       display: none;
     }
    }
+

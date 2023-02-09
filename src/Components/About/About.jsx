@@ -4,7 +4,7 @@ import me from '../../assets/me.jpeg'
 import TitleSection from '../TitleSection/TitleSection'
 export default function About() {
     return (
-        <section>
+        <section id='about'>
             <div className='about'>
                 <div className='text-about'>
                   <TitleSection title={'About Me'}/>

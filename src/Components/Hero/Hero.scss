@@ -1,11 +1,13 @@
 .hero{
 
+
+
 .text-hero1{
     margin: 0px 0px 30px 4px;
     color: var(--green);
     font-family: var(--font-mono);
     font-size: clamp(var(--fz-sm),5vw,var(--fz-md));
-    font-weight: 400;
+    font-weight: 600;
 }
 
 .text-hero2 h2{
@@ -13,7 +15,7 @@
     font-family: var(--font-sans);
     font-size: clamp(40px, 8vw, 80px);
  
-    font-weight: 600;
+    font-weight: 700;
     color: var(--lightest-slate);
     line-height: 1.1;
     
@@ -24,7 +26,7 @@
     font-family: var(--font-sans);
     font-size: clamp(40px, 8vw, 75px);
  
-    font-weight: 600;
+    font-weight: 700;
     color: var(--slate);
     line-height: 1.1;
 }
@@ -38,6 +40,9 @@
    
 }
 
+ .check-my-projects {
 
+    margin-top: 50px;
+}
 
 }

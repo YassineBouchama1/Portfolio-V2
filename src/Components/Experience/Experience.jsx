@@ -26,10 +26,11 @@ export default function Experience() {
 
     }
   return (
-    <section>
+    <section id='Experience'>
     
     <div className='experience'>
-    <TitleSection title={'Where I’ve Worked'}/>
+ 
+    <TitleSection className='title-experience' title={'Where I’ve Worked'}/>
 
 
 

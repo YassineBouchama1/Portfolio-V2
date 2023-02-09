@@ -1,36 +1,110 @@
+// .title-about{
+//     // padding: 30px 0;
+//     margin: 0px;
+//     font-family: var(--font-sans);
+//     font-size: clamp(10px, 8vw, 30px);
+//     position: relative;
+//     font-weight: 600;
+//     color: var(--lightest-slate);
+//     line-height: 1.1;
+//     max-width: 100%;
+//     text-align: start;
+   
+//     font-family: var(--font-mono);
+    
+//    }
+
+// .title-about::before{
+//     content: '01. ';
+//        font-weight: 200;
+//        font-size: clamp(15px, 8vw,20px);
+//     left: 0;
+//     top: 0;
+//     color: var(--green);
+// }
+// .title-about::after{
+
+//     content: "";
+//     display: block;
+//     position: absolute;
+//     top: 15px;
+//     right: 50px;
+//     width: 300px;
+//     height: 1px;
+ 
+//     background-color: var(--lightest-navy);
+
+// }
+
+
 .title-about{
     // padding: 30px 0;
     margin: 0px;
     font-family: var(--font-sans);
-    font-size: clamp(10px, 8vw, 30px);
+    // font-size: clamp(10px, 8vw, 30px);
     position: relative;
     font-weight: 600;
     color: var(--lightest-slate);
-    line-height: 1.1;
+    // line-height: 1.1;
+    // max-width: 100%;
+    // text-align: start;
+
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    position: relative;
+    margin: 10px 0px 40px;
     width: 100%;
-    font-family: var(--font-mono);
+  
+    white-space: nowrap;
     
    }
 
-.title-about::before{
-    content: '01. ';
-       font-weight: 200;
-       font-size: clamp(15px, 8vw,20px);
-    left: 0;
-    top: 0;
+   .title-about::before{
+    // content: '01. ';
+    //    font-weight: 200;
+    //    font-size: clamp(15px, 8vw,20px);
+    // left: 0;
+    // top: 0;
+    // color: var(--green);
+    position: relative;
+    // bottom: 4px;
+    counter-increment: section;
+    content: "0" counter(section) ".";
+    margin-right: 10px;
     color: var(--green);
-}
-.title-about::after{
+    font-family: var(--font-mono);
+    font-size: clamp(var(--fz-md),3vw,var(--fz-xl));
+    font-weight: 400;
+
+   }
+    .title-about::after{
 
     content: "";
     display: block;
-    position: absolute;
-    top: 15px;
-    right: 50px;
-    width: 300px;
+    position: relative;
+    top: 05px;
+
+width: 300px;
     height: 1px;
+    margin-left: 20px;
  
     background-color: var(--lightest-navy);
 
 }
 
+
+@media (max-width: 575.98px) { 
+    .title-about{
+        margin: 10px 0px 20px;
+    }
+
+    .title-about::after{
+
+
+    
+        width: 100%;
+
+    
+    }
+}

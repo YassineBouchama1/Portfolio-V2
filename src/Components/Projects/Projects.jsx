@@ -8,7 +8,7 @@ import p2 from '../../assets/p2.png'
 // import CardProject from '../CardProject/CardProject'
 export default function Projects() {
   return (
-    <section>
+    <section id='projects'>
     <div className='projects'>
     <TitleSection title={'Some Things I’ve Built'}/>
     
