@@ -70,7 +70,7 @@ background-color: transparent;
     width: 80%;
 
     font-family: var(--font-sans);
-
+    font-size: clamp(5px, 8vw, 15px);
 }
 .list-tools-used ul{
 
@@ -195,6 +195,80 @@ li{
     width: 60%;
     }
 }
+
+
+@media (max-width: 767.98px) { 
+    .right  .text-card {
+        flex-basis: 100%;
+        left: 0;
+        max-width: 100%;
+        box-shadow: 0 10px 30px -15px var(--navy-shadow);
+        flex-direction: column;
+        text-align: left;
+        border-radius: var(--border-radius);
+        background-color: rgba(17, 34, 64, 0.8);
+        z-index: 2;
+        text-align: left ;
+        padding: 45px;
+        
+        align-items: flex-start !important;
+    }
+
+    .right .card-img {
+        flex-basis: 100%;
+        right: 0; 
+        width: 100%;
+    }
+
+
+    
+
+    .left .text-card {
+        flex-basis: 100%;
+        right: 0;
+   
+
+        max-width: 100%;
+        box-shadow: 0 10px 30px -15px var(--navy-shadow);
+        flex-direction: column;
+        text-align: left;
+        border-radius: var(--border-radius);
+        background-color: rgba(17, 34, 64, 0.8);
+        z-index: 2;
+        padding: 45px;
+        align-items: flex-start !important;
+    }
+    
+
+    .left .card-img {
+        flex-basis: 100%;
+        position: absolute;
+        left:0%;
+        width: 100%;
+    }
+    
+    .card-project .sub-card-profject {
+        box-shadow: 0 0px 0px 0px var(--navy-shadow); 
+         padding: 0px; 
+        border-radius: 0; 
+        background-color: transparent; 
+        width: 100%;
+        font-size: clamp(5px, 8vw, 15px);
+    } 
+    .left .project-links{
+          justify-content: flex-start;
+    }
+
+    // .right  .text-card , .left  .text-card:hover .card-img a::before{
+    //     background-color: transparent; 
+    // }
+}
+
+
+
+
+
+
 
 
 // .card-project{

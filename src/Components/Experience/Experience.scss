@@ -16,7 +16,7 @@
     justify-content: flex-start;
     align-items: start;
     transition: var(--transition);
-    flex-basis: 20%;
+    flex-basis: 0;
   button{
 
     border: none;
@@ -67,7 +67,7 @@
 .contanet-experience{
  
     width: 100%;
-    flex-basis: 80%;
+    flex-basis: 70%;
 }
 
 .list-experience{
@@ -109,9 +109,9 @@ h3{
         margin: 0px;
         list-style: none;
         color: var(--light-slate);
-        font-family: var(--font-mono);
+        font-family: var(--font-sans);
         font-size: var(--fz-xs);
-        width: 70%;
+        width: 100%;
         gap: 10px;
         display: flex;
         line-height: 1.3;
@@ -121,7 +121,8 @@ h3{
         position: relative;
         padding-left: 30px;
         margin-bottom: 10px;
-        font-size: var(--fz-sm);
+        // font-size: var(--fz-sm);
+        font-size: clamp(5px, 8vw, 15px);
     }
      ul li::before {
         content: "▹";

@@ -34,7 +34,7 @@ export default function About() {
 
 
                 <div className='img-about'>
-                    <div className='wrapper'> <img src={me}></img></div>
+                    <img src={me}></img>
                 </div>
             </div>
         </section>

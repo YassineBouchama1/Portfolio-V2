@@ -17,15 +17,19 @@ const [{themename , setthemename}] = useContext(ThemeContext)
 // setthemename('hool')
   return (
     <div className="App">
-<NavBar/>
+    <NavBar/>
+    <main>
+
 <Hero/>
 <About/>
 <Experience/>
 <Projects/>
 <OtherProjects/>
 <Contact/>
-<Footer/>
 
+</main>
+<Footer/>
+{/* */}
 <div className="slide-side">
 <div class="email__StyledLinkWrapper-left">
 <a><i class="fa-brands fa-github-alt"></i></a>
