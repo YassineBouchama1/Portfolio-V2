@@ -1,14 +1,17 @@
+$with-container-img: 100%;
+
 .card-project{
     position: relative;
     display: flex;
 
     align-items: center;
     margin: 200px 0;
-    
+
     img{
         width: 100%;
      border-radius: var(--border-radius);
         height: 100;
+        object-fit: cover;
     }
     #overlay {
         position: fixed; /* Sit on top of the page content */
@@ -51,9 +54,9 @@ background-color: transparent;
  }
 
 
-.img-filter{
-    position: relative;
-}
+// .img-filter{
+//     position: relative;
+// }
 
 
 .sub-card-profject{
@@ -196,12 +199,36 @@ li{
     }
 }
 
-
+.card-img-mobile{
+    display: none;
+    
+}
 @media (max-width: 767.98px) { 
+    .card-img {
+        display: none;
+
+    //     flex-basis: 100%;
+    //     position: absolute;
+    //     right: 0;
+    // width: 100%;
+    // min-height: 400px;
+    // object-fit: cover;
+            }
+            .card-img-mobile {
+                display: flex;
+                z-index: 1;
+                height: auto;
+                position: absolute;
+                width: 100%;
+                top: 0;
+                left: 0;
+                bottom: 0;
+            }
+   
     .right  .text-card {
         flex-basis: 100%;
         left: 0;
-        max-width: 100%;
+        max-width: $with-container-img;
         box-shadow: 0 10px 30px -15px var(--navy-shadow);
         flex-direction: column;
         text-align: left;
@@ -209,7 +236,8 @@ li{
         background-color: rgba(17, 34, 64, 0.8);
         z-index: 2;
         text-align: left ;
-        padding: 45px;
+        height: auto;
+        padding: 40px;
         
         align-items: flex-start !important;
     }
@@ -235,7 +263,7 @@ li{
         border-radius: var(--border-radius);
         background-color: rgba(17, 34, 64, 0.8);
         z-index: 2;
-        padding: 45px;
+        padding: 40px;
         align-items: flex-start !important;
     }
     
@@ -262,11 +290,26 @@ li{
     // .right  .text-card , .left  .text-card:hover .card-img a::before{
     //     background-color: transparent; 
     // }
+
+
 }
 
 
 
+@media (max-width: 575.98px) { 
 
+
+    img{
+        width: 100%;
+     border-radius: var(--border-radius);
+        height: 100;
+        object-fit: cover;
+        width: max-content
+    }
+    // .card-img-mobile{
+    //     display: none;
+    // }
+}
 
 
 

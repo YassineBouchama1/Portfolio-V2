@@ -116,7 +116,7 @@ flex-basis: 5%;
         margin: 0px 0px 10px;
         color: var(--lightest-slate);
        
-        font-size: clamp(10px, 8vw,  20px);
+        font-size: clamp(5px, 8vw,  15px);
 
     }
 
@@ -131,3 +131,33 @@ li{
     color: var(--light-slate);
 }
 }
+@media (max-width: 991.98px) { 
+
+    .list-other-projects {
+        display: grid;
+        grid-template-columns: auto auto ;
+        gap: 20px;
+    }
+    
+ }
+
+@media (max-width: 767.98px) { 
+    // .list-other-projects {
+    //     display: grid;
+    //     grid-template-columns: auto auto ;
+    //     gap: 20px;
+    // }
+    
+}
+
+@media (max-width: 575.98px) { 
+
+    .list-other-projects {
+        display: grid;
+        grid-template-columns: auto ;
+        gap: 20px;
+    }
+    .mini-card-other-project{
+        min-height: 200px;
+    }
+ }

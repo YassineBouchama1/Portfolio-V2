@@ -132,3 +132,56 @@ h3{
     }
 }
 
+
+
+@media (max-width: 575.98px) { 
+    .list-btn button {
+        border: none;
+        text-decoration: none;
+        text-decoration-skip-ink: auto;
+        position: relative;
+        display: flex;
+        -webkit-box-align: center;
+        align-items: center;
+        height: var(--tab-height);
+        padding: 0px 20px 2px;
+        border-bottom: 2px solid var(--lightest-navy);
+        background-color: transparent;
+        color: var(--slate);
+        font-family: var(--font-mono);
+        font-size: var(--fz-xs);
+        text-align: left;
+        white-space: nowrap;
+        cursor: pointer;
+        transition: all 0.2s cubic-bezier(0.645, 0.045, 0.355, 1);
+        visibility: visible;
+        opacity: 1;
+        height: 100%;
+        transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+        transition: opacity 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s, transform 0.5s cubic-bezier(0.645, 0.045, 0.355, 1) 0.2s;
+    }
+    
+    
+    .list-btn button.active {
+        border-left: none;
+        border-bottom: 3px solid var(--green);
+        color: var(--green);
+
+    }
+    
+    
+    
+    .list-btn {
+        flex-direction: row; 
+        overflow-x: scroll ;
+        flex-basis: 100%;
+        width: 100%;
+    }
+    
+    
+    .list-experience {
+        flex-direction: column;
+        gap: 50px;
+    }
+
+}

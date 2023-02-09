@@ -8,13 +8,15 @@ export default function CardProject2({imgDirection,pimg,title}) {
     return (
         <div className={`card-project ${imgDirection}`}>
       
-
+      
             <div className='text-card'>
+  
                 <p className='project-overline'>Featured Project</p>
                 <h2 className='project-title'>{title}</h2>
                 <div className='sub-card-profject'>
                     <p>A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.</p>
                     </div>
+
                     <div className='list-tools-used'>
 
                         <ul>
@@ -31,10 +33,11 @@ export default function CardProject2({imgDirection,pimg,title}) {
                       
                     </div>
                     </div>
+                  
                 </div>
-          
-       
-                <div className='card-img'><a><div className='img-filter'><img src={pimg}></img></div></a></div>
+              
+                <div className='card-img-mobile'><img src={pimg}></img></div>
+                <div className='card-img'><a><img src={pimg}></img></a></div>
 
         
         </div>
