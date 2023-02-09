@@ -25,7 +25,7 @@ export default function Hero() {
     <p>I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.</p>
     </div>
 
-    <div class="check-my-projects" ><a class="email-link" href="#projects" target="_blank" rel="noreferrer">Check out my Projects!</a></div>
+    <div class="check-my-projects" ><a class="email-link" href="#projects" >Check out my Projects!</a></div>
     </section>
   )
 }
