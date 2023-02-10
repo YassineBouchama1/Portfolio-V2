@@ -4,8 +4,7 @@ import data  from '../../data/MainProjects';
 import CardProject2 from '../CardProject2/CardProject2'
 import TitleSection from '../TitleSection/TitleSection'
 import './Projects.scss'
-import p1 from '../../assets/p1.png'
-import p2 from '../../assets/p2.png'
+
 import { useState } from 'react';
 import { useEffect } from 'react';
 // import CardProject from '../CardProject/CardProject'
