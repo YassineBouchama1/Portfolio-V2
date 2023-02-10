@@ -2,8 +2,15 @@
   background-color: var( --navy);
   height: 100vh;
   position: relative;
-}
 
+  
+}
+.error404{
+  font-family: var(--font-mono);
+  font-size: var(--fz-xxl);
+  color: var(--light-slate);
+  text-align: center;
+}
 .slide-side{
   display: flex;
   flex-direction: column;
