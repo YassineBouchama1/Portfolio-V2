@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "title": "Movies DataBase",
+        "description": "This website allows you to search for any movie. I developed it as a platform to practice my Redux skills and to gain hands-on experience with React Router and APIs for the first time.",
+        "image": "/assets/Projects/mymovielist.png",
+        "demo": "https://si-moviesdb.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/MoviesDB",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ]
+  
+    },
+    {
+        "id": 2,
+        "title": "Mini Social Media Clon",
+        "description": "This website is a simple social media platform that allows users to create an account and share their thoughts. While it is not yet complete, I have plans to add many additional features in the future.",
+        "image": "/assets/Projects/socialmedia.png",
+        "demo": "https://socialmedia9.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/Social-Media-Clone",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ]
+    
+    }
+
+]

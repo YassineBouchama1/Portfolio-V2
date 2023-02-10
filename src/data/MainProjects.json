@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "title": "Filmmaker Portfolio",
+        "description": "I recently developed a website for a client who is a filmmaker and photographer. The website showcases his works and serves as a portfolio for his clients to view. Additionally, I also built a dashboard for him where he can upload and manage his works efficiently. For the backend of the website, I utilized Firebase, which provides a robust and scalable solution for storing and retrieving data. I am proud of the end result and my client is very satisfied with the functionality and design of the website. I am eager to continue building upon my skills and create more dynamic and user-friendly websites for clients in the future.",
+        "image": "/assets/Projects/filmmaker.png",
+        "demo": "https://www.google.com/search?q=yassine+zwin",
+        "repos": "https://www.google.com/search?q=yassine+zwin",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "right"
+    },
+    {
+        "id": 2,
+        "title": "Store Cash On Delivery",
+        "description": "I built a website to practice my skills in Redux and Firebase. The website features a simple design and is structured as a cash on delivery platform. This project allowed me to enhance my knowledge of these technologies and improve my web development abilities.",
+        "image": "/assets/Projects/store.png",
+        "demo": "https://store-cash-on-delivery.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/Store-Cash-On-Delivery",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "left",
+        "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
+
+    },
+    {
+        "id": 3,
+        "title": "My movie list",
+        "description": "This website allows you to create a list of movies you have watched or plan to watch in the future",
+        "image": "/assets/Projects/mymovielist.png",
+        "demo": "https://mylistmovies.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/MyListMovies-Offline",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "right"
+    },
+    {
+        "id": 4,
+        "title": "Grid Portfolio",
+        "description": "This is my first portfolio, built using a grid system and animated with Framer Motion.",
+        "image": "/assets/Projects/gridp.png",
+        "demo": "https://gridportfolio-v1.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/GridPortfolio",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "left"
+    },
+    {
+        "id": 5,
+        "title": "Landing page",
+        "description": "I created my first website using React JS, specifically for a local digital marketing agency.",
+        "image": "/assets/Projects/Pyxel.png",
+        "demo": "https://si-pyxel.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/Digital-Agency-LandingPage",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "right"
+    }
+]

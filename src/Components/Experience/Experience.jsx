@@ -11,19 +11,16 @@ export default function Experience() {
     document.getElementById('1btn').classList.toggle("active" , id === 1);
     document.getElementById(1).classList.toggle("visible" , id === 1);
     
-    document.getElementById('2btn').classList.toggle("active" , id === 2);
-    document.getElementById(2).classList.toggle("visible" , id === 2);
-
-    document.getElementById('3btn').classList.toggle("active" , id === 3);
-    document.getElementById(3).classList.toggle("visible" , id === 3);
 
 
 
-    document.getElementById('4btn').classList.toggle("active" , id === 4);
-    document.getElementById(4).classList.toggle("visible" , id === 4);
-    document.getElementById('5btn').classList.toggle("active" , id === 5);
-    document.getElementById(5).classList.toggle("visible" , id === 5);
 
+
+
+    }
+    const closeSorry = ()=>{
+      document.getElementById('sorry').classList.toggle("sorryHide" );
+      document.getElementById('list-experience').classList.toggle("list-no-blury" );
     }
   return (
     <section id='Experience'>
@@ -32,18 +29,20 @@ export default function Experience() {
  
     <TitleSection className='title-experience' title={'Where I’ve Worked'}/>
 
-
-
-    <div className='list-experience'>
+<div id='sorry' className='sorry'>
+<i onClick={closeSorry} class="fa-regular fa-circle-xmark"></i>
+<p>I am an enthusiastic learner of programming and have been teaching myself through various online resources and projects. I am currently working on improving my skills and expanding my knowledge in FrontEnd. Although I do not have any professional experience, I am confident in my ability to pick up new technologies quickly and eager to apply my skills in a real-world setting.</p>
+   
+<div class="check-my-projects sorry-btn" ><a class="email-link" href="#projects" >Check out my Projects!</a></div>
+</div>
+<div className='list-experience' id='list-experience'>
 
 
 
     <div className='list-btn'>
-  <button id='1btn' className='active' onClick={()=>ActiveExperience(1)}><span>Upstatement</span></button>
-  <button id='2btn' onClick={()=>ActiveExperience(2)}><span>Scout</span></button>
-  <button id='3btn' onClick={()=>ActiveExperience(3)}><span>Apple</span></button>
-  <button id='4btn' onClick={()=>ActiveExperience(4)}><span>Starry</span></button>
-  <button id='5btn' onClick={()=>ActiveExperience(5)}><span>MullenLowe</span></button>
+  <button id='1btn' className='active' onClick={()=>ActiveExperience(1)}><span>Freelance</span></button>
+
+
     </div>
 
 
@@ -51,58 +50,21 @@ export default function Experience() {
 
 
 <div className='visible contenct-item' id='1'>
-<h3>Software Engineer<a href='' className='compamy'>@ Apple</a></h3>
-<p class="range">May 2023- Present</p>
+<h3>FrontEnd<a href='' className='compamy'>@ Fiverr</a></h3>
+<p class="range">Oct 2022- Present</p>
 <div><ul>
+
+<li>I work as a freelancer in my country, serving local businesses. I utilize React JS and WordPress as my main tools, and utilize Firebase as my backend solution to ensure the website is robust, scalable, and secure.</li>
+<li>I specialize in creating websites that adhere to best practices in SEO to ensure optimal search engine visibility and ranking</li>
 <li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
-<li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
-<li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
 </ul></div>
 </div>
 
 
-<div className='contenct-item'  id='2'>
-<h3>Mearn Stack <a href='' className='compamy'>@ Google</a></h3>
-<p class="range">May 2018 - Present</p>
-<div><ul>
-<li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
-<li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
-<li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
-</ul></div>
-</div>
 
 
-<div className=' contenct-item' id='3'>
-<h3>Engineer <a href='' className='compamy'>@ Upstatement</a></h3>
-<p class="range">May 2015 - Present</p>
-<div><ul>
-<li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
-<li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
-<li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
-</ul></div>
-</div>
-
-<div className=' contenct-item' id='4'>
-<h3>ReactJs <a href='' className='compamy'>@ Amazon</a></h3>
-<p class="range">May 2014 - Present</p>
-<div><ul>
-<li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
-<li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
-<li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
-</ul></div>
-
-</div>
 
 
-<div className=' contenct-item' id='5'>
-<h3>JavaScript <a href='' className='compamy'>@ Spotify</a></h3>
-<p class="range">May 2012 - Present</p>
-<div><ul>
-<li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
-<li>Work with a variety of different languages, platforms, frameworks, and content management systems such as JavaScript, TypeScript, Gatsby, React, Craft, WordPress, Prismic, and Netlify</li>
-<li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>
-</ul></div>
-</div>
 
 </div>
     </div>

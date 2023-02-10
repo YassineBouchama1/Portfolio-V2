@@ -1,5 +1,28 @@
 .experience{
+.sorry{
+    font-family: var(--font-sans);
+    color: var(--lightest-slate);
+    font-weight: 600;
 
+    margin-top: 100px;
+    display: flex;
+    gap: 50px;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    i{
+        cursor: pointer;
+    }
+    i:hover{
+        color: var(--green);
+    }
+    .sorry-btn{
+      
+    }
+}
+.sorryHide{
+    display: none;
+}
 }
 
 .title-experience{
@@ -125,9 +148,13 @@
     flex-basis: 70%;
 }
 
+.list-no-blury{
+    filter: blur(0) !important;
+    position: relative;
+}
 .list-experience{
-
-
+    filter: blur(10px);
+position: relative;
     display: flex;
     justify-content: center;
 padding-top: 40px;

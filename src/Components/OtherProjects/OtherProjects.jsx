@@ -1,6 +1,6 @@
 import React from 'react'
 import './OtherProjects.scss'
-
+import dataAnotherPorjects  from '../../data/anotherPorjects';
 export default function OtherProjects() {
     return (
         <section>
@@ -9,11 +9,8 @@ export default function OtherProjects() {
                     <h2 className='title-other-project'>Other Noteworthy Projects</h2>
                 </div>
 <div className='list-other-projects'>
-<MiniCard text={'nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.'}/>
-<MiniCard text={'nides data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.'}/>
-<MiniCard text={'nicer look at your GitHub profile and repo stats. Includes data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.'}/>
-<MiniCard text={'nides data visualizations of your top languages, starred repositories, and sort through your top repos by number of stars, forks, and size.'}/>
-
+{dataAnotherPorjects?.map((i)=><MiniCard  data={i}/>)}
+    
 
 </div>
             </div>
@@ -24,22 +21,22 @@ export default function OtherProjects() {
 
 
 
-function MiniCard({text}) {
+function MiniCard({data}) {
     return (
         <div className='mini-card-other-project'>
             <div className='other-projet-top'>
                 <div class="folder"><i class="fa-regular fa-folder"></i></div>
-                <div class="other-project-link"><i class="fa-brands fa-github-alt"></i><i class="fa-solid fa-arrow-up-right-from-square"></i></div>
+                <div class="other-project-link"><a target='_blank' href={data.repos}><i class="fa-brands fa-github-alt">
+                </i></a> <a target='_blank' href={data.demo}><i class="fa-solid fa-arrow-up-right-from-square"></i></a></div>
 
             </div>
             <div className='other-projet-bottom'>
-            <h2>Integrating Algolia Search with Woite </h2>
+            <h2>{data.title}</h2>
            
-   <p>{text}</p>
+   <p>{data.description}</p>
    <ul>
-   <li>Algoli</li>
-   <li>WordPress</li>
-   <li>PHP</li>
+   {data?.tools?.map((i)=>   <li>{i}</li>)}
+
    </ul>
            
             </div>

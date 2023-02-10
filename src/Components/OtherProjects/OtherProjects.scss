@@ -72,6 +72,9 @@
     align-items: center;
     justify-content: space-between;
 flex-basis: 5%;
+a{
+    color: var(--lightest-slate);
+}
     .folder {
 
         font-size: clamp(10px, 8vw,  35px);
@@ -89,6 +92,7 @@ flex-basis: 5%;
         i {
             padding: 5px;
             cursor: pointer;
+         
         }
         i:hover{
             color: var(--green);

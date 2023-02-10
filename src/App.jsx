@@ -32,16 +32,16 @@ const [{themename , setthemename}] = useContext(ThemeContext)
 {/* */}
 <div className="slide-side">
 <div class="email__StyledLinkWrapper-left">
-<a><i class="fa-brands fa-github-alt"></i></a>
-<a><i class="fa-brands fa-linkedin"></i></a>
-<a><i class="fa-brands fa-instagram"></i></a>
+<a target='_blank' href="https://github.com/SiskoWeb"><i class="fa-brands fa-github-alt"></i></a>
+<a target='_blank' href="https://www.linkedin.com/in/yassinebouchama/"><i class="fa-brands fa-linkedin"></i></a>
+<a target='_blank' href="https://www.instagram.com/siskoweb"><i class="fa-brands fa-instagram"></i></a>
 </div>
 </div>
 
 
 <div className="slide-side">
 <div class="email__StyledLinkWrapper-right">
-<a href="mailto:brittany.chiang@gmail.com">sisko4dev@gmail.com</a>
+<a target='_blank' href="mailto:brittany.chiang@gmail.com">sisko4dev@gmail.com</a>
 </div>
 </div>
 
