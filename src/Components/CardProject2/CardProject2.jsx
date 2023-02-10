@@ -33,8 +33,8 @@ export default function CardProject2({data}) {
                   
                 </div>
               
-                <div className='card-img-mobile'><img src={data.image}></img></div>
-                <div className='card-img'><a><img src={data.image}></img></a></div>
+                <div className='card-img-mobile'><img src={`https://raw.githubusercontent.com/SiskoWeb/Portfolio-V2/main/src${data.image}`}></img></div>
+                <div className='card-img'><a><img src={`https://raw.githubusercontent.com/SiskoWeb/Portfolio-V2/main/src${data.image}`}></img></a></div>
 
         
         </div>
