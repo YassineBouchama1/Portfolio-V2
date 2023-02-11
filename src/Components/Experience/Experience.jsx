@@ -22,6 +22,14 @@ export default function Experience() {
       document.getElementById('sorry').classList.toggle("sorryHide" );
       document.getElementById('list-experience').classList.toggle("list-no-blury" );
     }
+
+    // <div id='sorry' className='sorry'>
+    // <i onClick={closeSorry} class="fa-regular fa-circle-xmark"></i>
+    // <p>I am an enthusiastic learner of programming and have been teaching myself through various online resources and projects. I am currently working on improving my skills and expanding my knowledge in FrontEnd. Although I do not have any professional experience, I am confident in my ability to pick up new technologies quickly and eager to apply my skills in a real-world setting.</p>
+       
+    // <div class="check-my-projects sorry-btn" ><a class="email-link" href="#projects" >Check out my Projects!</a></div>
+    // </div>
+
   return (
     <section id='Experience'>
     
@@ -29,12 +37,7 @@ export default function Experience() {
  
     <TitleSection className='title-experience' title={'Where I’ve Worked'}/>
 
-<div id='sorry' className='sorry'>
-<i onClick={closeSorry} class="fa-regular fa-circle-xmark"></i>
-<p>I am an enthusiastic learner of programming and have been teaching myself through various online resources and projects. I am currently working on improving my skills and expanding my knowledge in FrontEnd. Although I do not have any professional experience, I am confident in my ability to pick up new technologies quickly and eager to apply my skills in a real-world setting.</p>
-   
-<div class="check-my-projects sorry-btn" ><a class="email-link" href="#projects" >Check out my Projects!</a></div>
-</div>
+
 <div className='list-experience' id='list-experience'>
 
 
@@ -50,7 +53,7 @@ export default function Experience() {
 
 
 <div className='visible contenct-item' id='1'>
-<h3>FrontEnd<a href='' className='compamy'>@ Fiverr</a></h3>
+<h3 className='compamy'>FrontEnd</h3>
 <p class="range">Oct 2022- Present</p>
 <div><ul>
 
