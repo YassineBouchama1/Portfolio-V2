@@ -19,7 +19,7 @@
         "description": "I built a website to practice my skills in Redux and Firebase. The website features a simple design and is structured as a cash on delivery platform. This project allowed me to enhance my knowledge of these technologies and improve my web development abilities.",
         "image": "/assets/Projects/store.png",
         "demo": "https://store-cash-on-delivery.netlify.app/",
-        "repos": "https://github.com/SiskoWeb/Store-Cash-On-Delivery",
+        "repos": "https://github.com/SiskoWeb/Cash-On-Delivery-Store",
         "tools": [
             "React",
             "axios",
