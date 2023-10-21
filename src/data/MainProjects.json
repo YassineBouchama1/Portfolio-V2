@@ -64,7 +64,7 @@
         "id": 5,
         "title": "Filmmaker Portfolio",
         "description": "I recently developed a website for a client who is a filmmaker and photographer. The website showcases his works and serves as a portfolio for his clients to view. Additionally, I also built a dashboard for him where he can upload and manage his works efficiently. For the backend of the website, I utilized Firebase, which provides a robust and scalable solution for storing and retrieving data. I am proud of the end result and my client is very satisfied with the functionality and design of the website. I am eager to continue building upon my skills and create more dynamic and user-friendly websites for clients in the future.",
-        "image": "/assets/Projects/tracker.png",
+        "image": "/assets/Projects/filmmaker.png",
         "demo": "https://noaman.info/",
         "repos": "https://github.com/SiskoWeb/Filmmaker-Portfolio-With-Dashboard",
         "tools": [
