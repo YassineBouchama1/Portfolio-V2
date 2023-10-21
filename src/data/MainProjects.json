@@ -87,5 +87,19 @@
             "FireBase"
         ],
         "directionCard": "right"
+    },
+    {
+        "id": 7,
+        "title": "Grid Portfolio",
+        "description": "This is my first portfolio, built using a grid system and animated with Framer Motion.",
+        "image": "/assets/Projects/gridp.png",
+        "demo": "https://gridportfolio-v1.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/GridPortfolio",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "left"
     }
 ]
