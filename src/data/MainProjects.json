@@ -19,7 +19,7 @@
         "id": 2,
         "title": "Mern Stack Cash On Delivery Store with Admin Dashboard",
         "description": "this is full cash on delevry ecom website with dashboard to  full managment your work flow",
-        "image": "/assets/Projects/store.png",
+        "image": "/assets/Projects/cashon.png",
         "repos": "https://github.com/SiskoWeb/Cash-On-Delivery-Store-MernStack",
         "tools": [
             "reactjs",
@@ -32,9 +32,9 @@
     },
     {
         "id": 3,
-        "title": "Mern Stack Cash On Delivery Store with Admin Dashboard",
+        "title": "App Tracker",
         "description": "this website solve a problem for everyone has many apps in play store and want to track it if they are stile in store or not he will get a message in email if his aoo remove it this tool check apps 3 times a day",
-        "image": "/assets/Projects/store.png",
+        "image": "/assets/Projects/tracker.png",
         "demo": "https://deleted-apps-detector.vercel.app/",
         "repos": "https://github.com/SiskoWeb/Deleted-Apps-Detector",
         "tools": [
@@ -51,7 +51,7 @@
         "id": 4,
         "title": "Wallpaper App React Native With Admob",
         "description": "In my recent project, I solved a crucial problem for a client who manages various wallpaper apps linked to AdMob ads. Facing AdMob bans and app updates as a challenge, I created a streamlined solution..",
-        "image": "/assets/Projects/cashon.png",
+        "image": "/assets/Projects/Native.png",
         "repos": "https://github.com/SiskoWeb/wallpaper-App-React-Native",
         "tools": [
             "React Native",
