@@ -11,7 +11,6 @@
             "axios",
             "FireBase"
         ]
-  
     },
     {
         "id": 2,
@@ -25,7 +24,33 @@
             "axios",
             "FireBase"
         ]
-    
+    },
+    {
+        "id": 4,
+        "title": "Grid Portfolio",
+        "description": "This is my first portfolio, built using a grid system and animated with Framer Motion.",
+        "image": "/assets/Projects/gridp.png",
+        "demo": "https://gridportfolio-v1.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/GridPortfolio",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "left"
+    },
+    {
+        "id": 4,
+        "title": "My movie list",
+        "description": "This website allows you to create a list of movies you have watched or plan to watch in the future",
+        "image": "/assets/Projects/mymovielist.png",
+        "demo": "https://mylistmovies.netlify.app/",
+        "repos": "https://github.com/SiskoWeb/MyListMovies-Offline",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "right"
     }
-
 ]

@@ -1,55 +1,72 @@
 [
     {
         "id": 1,
-        "title": "Filmmaker Portfolio",
-        "description": "I recently developed a website for a client who is a filmmaker and photographer. The website showcases his works and serves as a portfolio for his clients to view. Additionally, I also built a dashboard for him where he can upload and manage his works efficiently. For the backend of the website, I utilized Firebase, which provides a robust and scalable solution for storing and retrieving data. I am proud of the end result and my client is very satisfied with the functionality and design of the website. I am eager to continue building upon my skills and create more dynamic and user-friendly websites for clients in the future.",
-        "image": "/assets/Projects/filmmaker.png",
-        "demo": "https://noaman.info/",
-        "repos": "https://github.com/SiskoWeb/Filmmaker-Portfolio-With-Dashboard",
-        "tools": [
-            "React",
-            "axios",
-            "FireBase"
-        ],
-        "directionCard": "right"
-    },
-    {
-        "id": 2,
-        "title": "Store Cash On Delivery With Admin Dashboard",
-        "description": "I built a website to practice my skills in Redux and Firebase. The website features a simple design and is structured as a cash on delivery platform. This project allowed me to enhance my knowledge of these technologies and improve my web development abilities.",
+        "title": "Product Page Generator FullStack",
+        "description": "this website allows you to create account and get your own dashboard to management  and create pages for your products - dashboard contain order manamgemnt images - products",
         "image": "/assets/Projects/store.png",
-        "demo": "https://store-cash-on-delivery.netlify.app/",
-        "repos": "https://github.com/SiskoWeb/Cash-On-Delivery-Store-with-Admin-Dashboard",
+        "repos": "https://github.com/SiskoWeb/Product-Page-Generator-FullStack",
         "tools": [
-            "React",
-            "axios",
-            "FireBase"
+            "Next.js",
+            "Tailwindcss",
+            "Typescript",
+            "mongoDB",
+            "expressjs"
         ],
         "directionCard": "left",
         "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
-
+    },
+    {
+        "id": 2,
+        "title": "Mern Stack Cash On Delivery Store with Admin Dashboard",
+        "description": "this is full cash on delevry ecom website with dashboard to  full managment your work flow",
+        "image": "/assets/Projects/store.png",
+        "repos": "https://github.com/SiskoWeb/Cash-On-Delivery-Store-MernStack",
+        "tools": [
+            "reactjs",
+            "Tailwindcss",
+            "mongoDB",
+            "expressjs"
+        ],
+        "directionCard": "right",
+        "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
     },
     {
         "id": 3,
-        "title": "My movie list",
-        "description": "This website allows you to create a list of movies you have watched or plan to watch in the future",
-        "image": "/assets/Projects/mymovielist.png",
-        "demo": "https://mylistmovies.netlify.app/",
-        "repos": "https://github.com/SiskoWeb/MyListMovies-Offline",
+        "title": "Mern Stack Cash On Delivery Store with Admin Dashboard",
+        "description": "this website solve a problem for everyone has many apps in play store and want to track it if they are stile in store or not he will get a message in email if his aoo remove it this tool check apps 3 times a day",
+        "image": "/assets/Projects/store.png",
+        "demo": "https://deleted-apps-detector.vercel.app/",
+        "repos": "https://github.com/SiskoWeb/Deleted-Apps-Detector",
         "tools": [
-            "React",
-            "axios",
-            "FireBase"
+            "nextjs",
+            "Tailwindcss",
+            "mongoDB",
+            "Prismajs",
+            "Typescript"
+        ],
+        "directionCard": "left",
+        "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
+    },
+    {
+        "id": 4,
+        "title": "Wallpaper App React Native With Admob",
+        "description": "In my recent project, I solved a crucial problem for a client who manages various wallpaper apps linked to AdMob ads. Facing AdMob bans and app updates as a challenge, I created a streamlined solution..",
+        "image": "/assets/Projects/cashon.png",
+        "repos": "https://github.com/SiskoWeb/wallpaper-App-React-Native",
+        "tools": [
+            "React Native",
+            "Redux",
+            "Tailwindcss"
         ],
         "directionCard": "right"
     },
     {
-        "id": 4,
-        "title": "Grid Portfolio",
-        "description": "This is my first portfolio, built using a grid system and animated with Framer Motion.",
-        "image": "/assets/Projects/gridp.png",
-        "demo": "https://gridportfolio-v1.netlify.app/",
-        "repos": "https://github.com/SiskoWeb/GridPortfolio",
+        "id": 5,
+        "title": "Filmmaker Portfolio",
+        "description": "I recently developed a website for a client who is a filmmaker and photographer. The website showcases his works and serves as a portfolio for his clients to view. Additionally, I also built a dashboard for him where he can upload and manage his works efficiently. For the backend of the website, I utilized Firebase, which provides a robust and scalable solution for storing and retrieving data. I am proud of the end result and my client is very satisfied with the functionality and design of the website. I am eager to continue building upon my skills and create more dynamic and user-friendly websites for clients in the future.",
+        "image": "/assets/Projects/tracker.png",
+        "demo": "https://noaman.info/",
+        "repos": "https://github.com/SiskoWeb/Filmmaker-Portfolio-With-Dashboard",
         "tools": [
             "React",
             "axios",
@@ -58,7 +75,7 @@
         "directionCard": "left"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Landing page",
         "description": "I created my first website using React JS, specifically for a local digital marketing agency.",
         "image": "/assets/Projects/Pyxel.png",
