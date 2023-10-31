@@ -43,7 +43,6 @@ export default function CardProject2({ data }) {
 
                     </div>
                 </div>
-
             </div>
 
             <motion.div
