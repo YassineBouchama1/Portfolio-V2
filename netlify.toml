@@ -1,4 +1,0 @@
-[build]
-  command = "pnpm install --frozen-lockfile"
-  publish = "dist"
-  functions = "lambda"
