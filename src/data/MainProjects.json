@@ -101,5 +101,18 @@
             "FireBase"
         ],
         "directionCard": "left"
+    },
+    {
+        "id": 8,
+        "title": "AsianFood-Simple",
+        "description": "Simle Project integre with Ai To Hanlde Input User",
+        "image": "/assets/Projects/asianFood.png",
+        "demo": "https://siskoweb.github.io/Asian-restaurant/",
+        "repos": "https://github.com/SiskoWeb/Asian-restaurant",
+        "tools": [
+            "Js Vanila",
+            "OpenAi Api"
+        ],
+        "directionCard": "right"
     }
 ]
