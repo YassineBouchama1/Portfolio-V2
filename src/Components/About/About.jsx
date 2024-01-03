@@ -22,12 +22,19 @@ export default function About() {
                         <p>I am confident that my passion for React and my ability to learn and adapt quickly will allow me to make a valuable contribution to any development team. I am eager to bring my skills and enthusiasm to a new opportunity and continue to grow and develop as a React developer.</p>
                     </div>
                     <div><ul className="skills-list">
-                        <li>JavaScript (ES6+)</li>
+                        <li>JavaScript</li>
+                        <li>TypeScript</li>
+                        <li>PHP</li>
                         <li>Reactjs</li>
+                      <li>Next.js</li>
+                        <li>Express.js</li>
                         <li>Firebase</li>
                         <li>Sass</li>
                         <li>Bootstrap</li>
                         <li>Redux</li>
+                          <li>Tailwind css</li>
+                        <li>Redux</li>
+                        <li>React Query</li>
                         <li>Design to WordPress</li>
                     </ul></div>
                 </div>
