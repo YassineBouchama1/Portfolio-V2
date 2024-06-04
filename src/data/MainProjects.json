@@ -32,8 +32,8 @@
     },
     {
         "id": 3,
-        "title": "App Tracker",
-        "description": "this website solve a problem for everyone has many apps in play store and want to track it if they are stile in store or not he will get a message in email if his aoo remove it this tool check apps 3 times a day",
+        "title": "Saas - App Tracker",
+        "description": "this saas solve a problem for everyone has many apps in play store and want to track it if they are stile in store or not he will get a message in email if his aoo remove it this tool check apps 3 times a day",
         "image": "/assets/Projects/tracker.png",
         "demo": "https://deleted-apps-detector.vercel.app/",
         "repos": "https://github.com/SiskoWeb/Deleted-Apps-Detector",
