@@ -48,6 +48,20 @@
         "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
     },
     {
+        "id": 3,
+        "title": "Blog Seo",
+        "description": "This is a Pwerful blog that includes All Concept To Help Your Blogs To Reach First Page In Search Engine",
+        "image": "/assets/Projects/blogSeo.png",
+        "demo": "https://blog-nextjs-seo.vercel.app/",
+        "repos": "https://github.com/SiskoWeb/blog-nextjs-seo",
+        "tools": [
+            "nextjs",
+            "Tailwindcss"
+        ],
+        "directionCard": "right",
+        "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
+    },
+    {
         "id": 4,
         "title": "Wallpaper App React Native With Admob",
         "description": "In my recent project, I solved a crucial problem for a client who manages various wallpaper apps linked to AdMob ads. Facing AdMob bans and app updates as a challenge, I created a streamlined solution..",
@@ -58,7 +72,7 @@
             "Redux",
             "Tailwindcss"
         ],
-        "directionCard": "right"
+        "directionCard": "left"
     },
     {
         "id": 5,
@@ -72,7 +86,7 @@
             "axios",
             "FireBase"
         ],
-        "directionCard": "left"
+        "directionCard": "right"
     },
     {
         "id": 6,
@@ -86,7 +100,7 @@
             "axios",
             "FireBase"
         ],
-        "directionCard": "right"
+        "directionCard": "left"
     },
     {
         "id": 7,
@@ -100,7 +114,7 @@
             "axios",
             "FireBase"
         ],
-        "directionCard": "left"
+        "directionCard": "right"
     },
     {
         "id": 8,
@@ -113,6 +127,6 @@
             "Js Vanila",
             "OpenAi Api"
         ],
-        "directionCard": "right"
+        "directionCard": "left"
     }
 ]
