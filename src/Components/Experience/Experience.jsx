@@ -57,25 +57,36 @@ export default function Experience() {
 
 
             <div className='visible contenct-item' id='1'>
-              <h3 className='compamy'>FrontEnd</h3>
+              <h3 className='compamy'>Full Stack Developer Internship</h3>
+              <p class="range">May 2024 - Jul 2024</p>
+              <div><ul>
+
+              <li>Built a payment system using Next.js and NestJS.</li>
+              <li>Created a company website with Laravel and Vue.js.</li>
+              </ul></div>
+            </div>
+            <div className=' contenct-item' id='2'>
+              <h3 className='compamy'>Full Stack Developer</h3>
               <p class="range">Oct 2022- Present</p>
               <div><ul>
 
-                <li>I work as a freelancer in my country, serving local businesses. I utilize React JS and WordPress as my main tools, and utilize Firebase as my backend solution to ensure the website is robust, scalable, and secure.</li>
-                <li>I specialize in creating websites that adhere to best practices in SEO to ensure optimal search engine visibility and ranking</li>
-                <li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>
+              <li>Freelancing for local businesses, utilizing React JS and WordPress as primary tools, with Firebase as the backend solution for robust, scalable, and secure websites.</li>
+        <li>Specializing in SEO best practices to enhance search engine visibility and ranking.</li>
+        <li>Writing modern, performant, and maintainable code for a diverse array of client and internal projects.</li>
               </ul></div>
             </div>
-            <div className='contenct-item' id='2'>
-              <h3 className='compamy'>Full-stack developers Student</h3>
+
+            <div className='contenct-item' id='3'>
+              <h3 className='compamy'>Web & Mobile developers Student</h3>
               <p class="range">Sept 2023- Present</p>
               <div><ul>
 
-                <li>Student on simplon.co & youcode.ma</li>
+                <li>Student on  youcode.ma "Um6p"</li>
                 <li>we are study how to become a good devloper </li>
                 <li>how to deal with big projects</li>
               </ul></div>
             </div>
+
 
 
 

@@ -32,23 +32,20 @@
     },
     {
         "id": 3,
-        "title": "Saas - App Tracker",
-        "description": "this saas solve a problem for everyone has many apps in play store and want to track it if they are stile in store or not he will get a message in email if his aoo remove it this tool check apps 3 times a day",
-        "image": "/assets/Projects/tracker.png",
-        "demo": "https://deleted-apps-detector.vercel.app/",
-        "repos": "https://github.com/SiskoWeb/Deleted-Apps-Detector",
+        "title": "Automated multi-email sending",
+        "description": "Instead of sending one email at a time, you can send multiple emails with multiple letters and resumes",
+        "image": "/assets/Projects/automated-email.png",
+        "demo": "https://send-resumes.vercel.app/",
+        "repos": "https://github.com/YassineBouchama1/Send-Resumes",
         "tools": [
-            "nextjs",
-            "Tailwindcss",
-            "mongoDB",
-            "Prismajs",
-            "Typescript"
+            "Next.js",
+            "Typescript",
+            "Nodemailer"
         ],
-        "directionCard": "left",
-        "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
+        "directionCard": "left"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Blog Seo",
         "description": "This is a Pwerful blog that includes All Concept To Help Your Blogs To Reach First Page In Search Engine",
         "image": "/assets/Projects/blogSeo.png",
@@ -62,7 +59,7 @@
         "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Wallpaper App React Native With Admob",
         "description": "In my recent project, I solved a crucial problem for a client who manages various wallpaper apps linked to AdMob ads. Facing AdMob bans and app updates as a challenge, I created a streamlined solution..",
         "image": "/assets/Projects/Native.png",
@@ -75,21 +72,24 @@
         "directionCard": "left"
     },
     {
-        "id": 5,
-        "title": "Filmmaker Portfolio",
-        "description": "I recently developed a website for a client who is a filmmaker and photographer. The website showcases his works and serves as a portfolio for his clients to view. Additionally, I also built a dashboard for him where he can upload and manage his works efficiently. For the backend of the website, I utilized Firebase, which provides a robust and scalable solution for storing and retrieving data. I am proud of the end result and my client is very satisfied with the functionality and design of the website. I am eager to continue building upon my skills and create more dynamic and user-friendly websites for clients in the future.",
-        "image": "/assets/Projects/filmmaker.png",
-        "demo": "https://noaman.info/",
-        "repos": "https://github.com/SiskoWeb/Filmmaker-Portfolio-With-Dashboard",
+        "id": 6,
+        "title": "Saas - App Tracker",
+        "description": "this saas solve a problem for everyone has many apps in play store and want to track it if they are stile in store or not he will get a message in email if his aoo remove it this tool check apps 3 times a day",
+        "image": "/assets/Projects/tracker.png",
+        "demo": "https://deleted-apps-detector.vercel.app/",
+        "repos": "https://github.com/SiskoWeb/Deleted-Apps-Detector",
         "tools": [
-            "React",
-            "axios",
-            "FireBase"
+            "nextjs",
+            "Tailwindcss",
+            "mongoDB",
+            "Prismajs",
+            "Typescript"
         ],
-        "directionCard": "right"
+        "directionCard": "right",
+        "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Landing page",
         "description": "I created my first website using React JS, specifically for a local digital marketing agency.",
         "image": "/assets/Projects/Pyxel.png",
@@ -103,7 +103,7 @@
         "directionCard": "left"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Grid Portfolio",
         "description": "This is my first portfolio, built using a grid system and animated with Framer Motion.",
         "image": "/assets/Projects/gridp.png",
@@ -117,7 +117,34 @@
         "directionCard": "right"
     },
     {
-        "id": 8,
+        "id": 9,
+        "title": "Storepreviewer",
+        "description": "StorePreviewer lets you preview your app in a close copy of the Apple App Store and Google Play Store. Right now,",
+        "image": "/assets/Projects/storepreviewer.png",
+        "demo": "https://storepreviewer.vercel.app/",
+        "repos": "https://github.com/YassineBouchama1/StorePreviewer",
+        "tools": [
+            "Next.js",
+            "Typescript"
+        ],
+        "directionCard": "right"
+    },
+    {
+        "id": 10,
+        "title": "Filmmaker Portfolio",
+        "description": "I recently developed a website for a client who is a filmmaker and photographer. The website showcases his works and serves as a portfolio for his clients to view. Additionally, I also built a dashboard for him where he can upload and manage his works efficiently. For the backend of the website, I utilized Firebase, which provides a robust and scalable solution for storing and retrieving data. I am proud of the end result and my client is very satisfied with the functionality and design of the website. I am eager to continue building upon my skills and create more dynamic and user-friendly websites for clients in the future.",
+        "image": "/assets/Projects/filmmaker.png",
+        "demo": "https://noaman.info/",
+        "repos": "https://github.com/SiskoWeb/Filmmaker-Portfolio-With-Dashboard",
+        "tools": [
+            "React",
+            "axios",
+            "FireBase"
+        ],
+        "directionCard": "right"
+    },
+    {
+        "id": 11,
         "title": "AsianFood-Simple",
         "description": "Simle Project integre with Ai To Hanlde Input User",
         "image": "/assets/Projects/asianFood.png",
