@@ -5,6 +5,7 @@
         "description": "this website allows you to create account and get your own dashboard to management  and create pages for your products - dashboard contain order manamgemnt images - products",
         "image": "/assets/Projects/store.png",
         "repos": "https://github.com/SiskoWeb/Product-Page-Generator-FullStack",
+        "demo": "https://www.youtube.com/watch?v=glT1eY37-E4",
         "tools": [
             "Next.js",
             "Tailwindcss",
@@ -17,21 +18,35 @@
     },
     {
         "id": 2,
+        "title": "Moroccan Rare Illness Registry",
+        "description": "System to track rare illness associations in Morocco, aiding government healthcare planning.",
+        "image": "/assets/Projects/morocco.png",
+        "demo": "https://youtu.be/1JBSWwRz48E",
+        "repos": "https://github.com/YassineBouchama1/system-manage-associations",
+        "tools": [
+            "Js Vanila",
+            "OpenAi Api"
+        ],
+        "directionCard": "ight"
+    },
+    {
+        "id": 3,
         "title": "Mern Stack Cash On Delivery Store with Admin Dashboard",
         "description": "this is full cash on delevry ecom website with dashboard to  full managment your work flow",
         "image": "/assets/Projects/cashon.png",
         "repos": "https://github.com/SiskoWeb/Cash-On-Delivery-Store-MernStack",
+        "demo": "https://www.youtube.com/watch?v=8iuYFqrSYBk",
         "tools": [
             "reactjs",
             "Tailwindcss",
             "mongoDB",
             "expressjs"
         ],
-        "directionCard": "right",
+        "directionCard": "left",
         "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Automated multi-email sending",
         "description": "Instead of sending one email at a time, you can send multiple emails with multiple letters and resumes",
         "image": "/assets/Projects/automated-email.png",
@@ -42,10 +57,10 @@
             "Typescript",
             "Nodemailer"
         ],
-        "directionCard": "left"
+        "directionCard": "right"
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Blog Seo",
         "description": "This is a Pwerful blog that includes All Concept To Help Your Blogs To Reach First Page In Search Engine",
         "image": "/assets/Projects/blogSeo.png",
@@ -55,24 +70,25 @@
             "nextjs",
             "Tailwindcss"
         ],
-        "directionCard": "right",
+        "directionCard": "left",
         "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Wallpaper App React Native With Admob",
         "description": "In my recent project, I solved a crucial problem for a client who manages various wallpaper apps linked to AdMob ads. Facing AdMob bans and app updates as a challenge, I created a streamlined solution..",
         "image": "/assets/Projects/Native.png",
         "repos": "https://github.com/SiskoWeb/wallpaper-App-React-Native",
+        "demo": "https://www.youtube.com/watch?v=x-XAgyYgnUM",
         "tools": [
             "React Native",
             "Redux",
             "Tailwindcss"
         ],
-        "directionCard": "left"
+        "directionCard": "right"
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Saas - App Tracker",
         "description": "this saas solve a problem for everyone has many apps in play store and want to track it if they are stile in store or not he will get a message in email if his aoo remove it this tool check apps 3 times a day",
         "image": "/assets/Projects/tracker.png",
@@ -85,11 +101,11 @@
             "Prismajs",
             "Typescript"
         ],
-        "directionCard": "right",
+        "directionCard": "left",
         "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
     },
     {
-        "id": 7,
+        "id": 8,
         "title": "Landing page",
         "description": "I created my first website using React JS, specifically for a local digital marketing agency.",
         "image": "/assets/Projects/Pyxel.png",
@@ -100,10 +116,10 @@
             "axios",
             "FireBase"
         ],
-        "directionCard": "left"
+        "directionCard": "right"
     },
     {
-        "id": 8,
+        "id": 9,
         "title": "Grid Portfolio",
         "description": "This is my first portfolio, built using a grid system and animated with Framer Motion.",
         "image": "/assets/Projects/gridp.png",
@@ -114,10 +130,10 @@
             "axios",
             "FireBase"
         ],
-        "directionCard": "right"
+        "directionCard": "left"
     },
     {
-        "id": 9,
+        "id": 10,
         "title": "Storepreviewer",
         "description": "StorePreviewer lets you preview your app in a close copy of the Apple App Store and Google Play Store. Right now,",
         "image": "/assets/Projects/storepreviewer.png",
@@ -130,7 +146,7 @@
         "directionCard": "right"
     },
     {
-        "id": 10,
+        "id": 11,
         "title": "Filmmaker Portfolio",
         "description": "I recently developed a website for a client who is a filmmaker and photographer. The website showcases his works and serves as a portfolio for his clients to view. Additionally, I also built a dashboard for him where he can upload and manage his works efficiently. For the backend of the website, I utilized Firebase, which provides a robust and scalable solution for storing and retrieving data. I am proud of the end result and my client is very satisfied with the functionality and design of the website. I am eager to continue building upon my skills and create more dynamic and user-friendly websites for clients in the future.",
         "image": "/assets/Projects/filmmaker.png",
@@ -141,10 +157,10 @@
             "axios",
             "FireBase"
         ],
-        "directionCard": "right"
+        "directionCard": "left"
     },
     {
-        "id": 11,
+        "id": 12,
         "title": "AsianFood-Simple",
         "description": "Simle Project integre with Ai To Hanlde Input User",
         "image": "/assets/Projects/asianFood.png",
@@ -154,6 +170,6 @@
             "Js Vanila",
             "OpenAi Api"
         ],
-        "directionCard": "left"
+        "directionCard": "right"
     }
 ]
