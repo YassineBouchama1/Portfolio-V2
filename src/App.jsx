@@ -29,47 +29,67 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" element={<>
-            <main>
+          <Route
+            path="/"
+            element={
+              <>
+                <main>
+                  <Hero />
+                  <About />
+                  <Experience />
+                  <Projects />
+                  <OtherProjects />
+                  <Contact />
+                </main>
+                <Footer />
+                {/* */}
+                <div className="slide-side">
+                  <div class="email__StyledLinkWrapper-left">
+                    <a
+                      target="_blank"
+                      href="https://github.com/YassineBouchama1"
+                    >
+                      <i class="fa-brands fa-github-alt"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://www.linkedin.com/in/yassinebouchama/"
+                    >
+                      <i class="fa-brands fa-linkedin"></i>
+                    </a>
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/channel/UCkZXBRRPaQRFv1j6eJ-qYhQ/"
+                    >
+                      <i class="fa-brands fa-youtube"></i>
+                    </a>
+                  </div>
+                </div>
 
-              <Hero />
-              <About />
-              <Experience />
-              <Projects />
-              <OtherProjects />
-              <Contact />
+                <div className="slide-side">
+                  <div class="email__StyledLinkWrapper-right">
+                    <a target="_blank" href="mailto:bouchamajob@gmail.com">
+                      bouchamajob@gmail.com
+                    </a>
+                  </div>
+                </div>
+              </>
+            }
+          />
 
-            </main>
-            <Footer />
-            {/* */}
-            <div className="slide-side">
-              <div class="email__StyledLinkWrapper-left">
-                <a target='_blank' href="https://github.com/SiskoWeb"><i class="fa-brands fa-github-alt"></i></a>
-                <a target='_blank' href="https://www.linkedin.com/in/yassinebouchama/"><i class="fa-brands fa-linkedin"></i></a>
-                <a target='_blank' href="https://www.instagram.com/siskoweb"><i class="fa-brands fa-instagram"></i></a>
-              </div>
-            </div>
-
-
-            <div className="slide-side">
-              <div class="email__StyledLinkWrapper-right">
-                <a target='_blank' href="mailto:brittany.chiang@gmail.com">sisko4dev@gmail.com</a>
-              </div>
-            </div>
-          </>} />
-
-          <Route path="*" element={<p className='error404'>  there is no page with this link  back to yassine.info</p>} />
-
-
+          <Route
+            path="*"
+            element={
+              <p className="error404">
+                {" "}
+                there is no page with this link back to yassine.info
+              </p>
+            }
+          />
         </Routes>
       </BrowserRouter>
-
-
-
-
-
     </div>
-  )
+  );
 }
 
 export default App
