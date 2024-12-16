@@ -51,7 +51,8 @@ export default function CardProject2({ data }) {
           className="card-img-mobile"
         >
           <img
-            src={`https://raw.githubusercontent.com/SiskoWeb/Portfolio-V2/main/src${data.image}`}
+            // src={`https://raw.githubusercontent.com/SiskoWeb/Portfolio-V2/main/src${data.image}`}
+            src={data.image}
             alt={data.title}
           ></img>
         </motion.div>

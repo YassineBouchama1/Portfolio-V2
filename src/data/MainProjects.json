@@ -89,7 +89,7 @@
     "id": 9,
     "title": "World and Morocco Country Code JSON Map",
     "description": "For Moroccan Developers! 🇲🇦Looking for a GeoJSON map of Morocco or its regions? I couldn't find one when I needed it, so I created:",
-    "image": "/assets/Projects/map.png",
+    "image": "/assets/Projects/map.jpg",
     "demo": "https://github.com/YassineBouchama1/Morocco-geojson",
     "repos": "https://github.com/YassineBouchama1/Morocco-geojson",
     "tools": ["GeoJson"],
