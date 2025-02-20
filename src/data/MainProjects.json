@@ -33,12 +33,12 @@
   },
   {
     "id": 4,
-    "title": "Automated multi-email sending",
-    "description": "Instead of sending one email at a time, you can send multiple emails with multiple letters and resumes",
-    "image": "/assets/Projects/automated-email.png",
-    "demo": "https://send-resumes.vercel.app/",
-    "repos": "https://github.com/YassineBouchama1/Send-Resumes",
-    "tools": ["Next.js", "Typescript", "Nodemailer"],
+    "title": "Easy Career",
+    "description": "Send Multiple Emails at Once: Upload your resume and cover letter, add recruiter emails, and send personalized applications in one click.",
+    "image": "/assets/Projects/easycareer.png",
+    "demo": "https://www.easycareer.io/",
+    "repos": "https://github.com/YassineBouchama1",
+    "tools": ["Next.js", "Typescript", "Nodemailer","google Api","ChatGpt Ai"],
     "directionCard": "right"
   },
   {
@@ -165,6 +165,16 @@
     "demo": "https://YassineBouchama1.github.io/Asian-restaurant/",
     "repos": "https://github.com/YassineBouchama1/Asian-restaurant",
     "tools": ["Js Vanila", "OpenAi Api"],
+    "directionCard": "right"
+  },
+  {
+    "id": 17,
+    "title": "Automated multi-email sending",
+    "description": "Instead of sending one email at a time, you can send multiple emails with multiple letters and resumes",
+    "image": "/assets/Projects/automated-email.png",
+    "demo": "https://send-resumes.vercel.app/",
+    "repos": "https://github.com/YassineBouchama1/Send-Resumes",
+    "tools": ["Next.js", "Typescript", "Nodemailer"],
     "directionCard": "right"
   }
 ]
