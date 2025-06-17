@@ -80,7 +80,7 @@
     "description": "this is my upcoming portfolio styled like windows xp",
     "image": "/assets/Projects/xp.png",
     "demo": "https://yassine.blog",
-    "repos": "https://github.com/YassineBouchama1",
+    "repos": "https://github.com/YassineBouchama1/My-Portfolio-Based-Windows-XP",
     "tools": ["Angular", "Saas"],
     "directionCard": "left",
     "nothing": "I developed a website for my friends to sell local products with a cash on delivery option. The website features a simple design and a dashboard for product management, powered by Firebase backend and Redux state management. My friends are satisfied with the website s functionality and performance, and I am proud of my work on this project"
